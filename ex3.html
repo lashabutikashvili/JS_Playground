@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <title>exercise_3</title>
+</head>
+
+
+<body>
+    <h2>Exercise_3</h2>
+    <p>repearing yesterdays examples</p>
+    <p></p>
+
+    <h3>when button one clicked something should happen and button 2 should add something th that sentence</h3>
+
+
+    <button id="button1">1</button>
+    <button id="button2">2</button>
+    <button id="button3">3</button>
+    <h4 id="header4"></h4>
+    <h5 id="blank"> 1 </h5>
+
+    
+
+
+    <script>
+
+        document.getElementById("button1").onclick = function() {
+            document.getElementById("header4").innerHTML = "button 1 has ben klicked,";
+            document.getElementById("button2").onclick = function() {
+                document.getElementById("header4").innerHTML = document.getElementById("header4").innerHTML + " second button clicked";
+                    document.getElementById("button3").onclick = function() {
+                        document.getElementById("header4").innerHTML = document.getElementById("header4").innerHTML + " and the third button clicked as well!"
+                    }
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>

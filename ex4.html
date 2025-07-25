@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <title>JS styles</title>
+</head>
+<body>
+    <h5 id="header">Playing with the JS styles</h5>
+
+
+    <script>
+        document.getElementById("header").onclick = function() {
+            document.getElementById("header").style.color = "white";
+            document.getElementById("header").style.background = "green";
+            document.getElementById("header").style.fontSize = "23px";
+                document.getElementById("header").onmouseover = function() {
+                    document.getElementById("header").style.display = "none";
+                }
+        }
+
+    </script>
+</body>
+
+</html>

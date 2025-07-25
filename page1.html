@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>JS</title>
+</head>
+<body>
+    <p id="paragraph">Hello World</p>
+    <button id="button">change text</button>
+
+    <p id="secondParagraph">Javascrypt is ... </p>
+
+    <button id="secondButton">Click me</button>
+
+    <p></p>
+
+    <button id="thirdButton">Butt3</button>
+    <h2 id="abrakobra"></h2>
+
+
+
+    <script>
+        document.getElementById("button").onclick = function() {
+            document.getElementById("paragraph").innerHTML = "Hello Bob";
+        };
+    
+
+        document.getElementById("secondButton").onclick = function(){
+
+            document.getElementById("secondParagraph").innerHTML = "I think " + document.getElementById("secondParagraph").innerHTML + "awesome";
+        }
+
+
+        document.getElementById("thirdButton").onclick = function() {
+              document.getElementById("abrakobra").innerHTML = "Abra Kobra";        
+        };
+
+    </script>
+
+</body>
+</html>

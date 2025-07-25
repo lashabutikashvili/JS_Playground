@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Headline stiles */
+        #headline {
+            text-align: center;
+            font-size: 25px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-bottom: 5px solid black;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;      
+            font-weight: bold;
+            letter-spacing: 2px;    
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        /* Circle class style */
+        .circle {
+            margin: 15px auto;
+            width: 100px;
+            height: 100px;
+        }
+
+        /* test commend for git */
+        
+        #red-circle {
+            background-color: rgb(185, 25, 25);
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: all 0.5s ease;  
+        }
+
+        #orange-circle {
+            background-color: rgb(202, 130, 22);
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: all 0.5s ease;  
+        }
+
+
+        #green-circle {
+            background-color: rgb(26, 170, 33);
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: all 0.5s ease;  
+        }
+        
+        .header {
+            /* color: white; */
+            text-align: center;
+            /* font-size: 20px; */
+            padding-top: 40%;
+        }
+    </style>
+
+    <title>Disappearing Circles</title>
+    <!-- Headline -->
+    
+</head>
+
+<body>
+    <h4 id="headline">Disappearing traffic light circles</h4>
+    <!-- here are three sircle divs  -->
+    <div class="circle" id="red-circle"> <h5 class="header">STOP</h5> </div>
+    <div class="circle" id="orange-circle"> <h5 class="header">circle 2nd</h5>  </div>
+    <div class="circle" id="green-circle">  <h5 class="header">circle 3rd</h5>  </div>
+    <!-- End of three circles -->
+
+    <script>
+
+    // Onclick functions to make the circles disappear 
+
+    document.getElementById("red-circle").onclick = function(){
+        document.getElementById("red-circle").style.display = "none";
+    }
+    document.getElementById("orange-circle").onclick = function(){
+        document.getElementById("orange-circle").style.display = "none";
+    }
+    document.getElementById("green-circle").onclick = function(){
+        document.getElementById("green-circle").style.display = "none";
+    }
+    </script>
+</body>
+</html>

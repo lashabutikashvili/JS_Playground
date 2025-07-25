@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise_2</title>
+</head>
+
+<body>
+
+
+<h1>Exercise_2</h1>
+
+<button id="first">Get your link here</button> <p></p>
+<a id="link"> </a>
+<h2 id="blow"></h2>
+
+    <script>
+
+        const link = "https://www.reddit.com/r/learnjavascript/comments/uyndzm/beginners_books_on_javascript/"
+
+        const blow = "click here if you want your link dissapear"
+
+        document.getElementById("first").onclick = function() {
+            document.getElementById("link").innerHTML = "here is your link dear: " + link;
+            document.getElementById("blow").innerHTML = "click here if you want your link disappear";
+        }
+        
+        document.getElementById("blow").onclick = function() {
+            document.getElementById("link").innerHTML = " ";
+            document.getElementById("blow").innerHTML = " ";
+        }
+
+
+    </script>
+</body>
+
+</html>
