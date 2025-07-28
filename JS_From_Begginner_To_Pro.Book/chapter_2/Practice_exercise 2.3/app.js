@@ -1,6 +1,6 @@
 // alert("I am connected to practice exercise 2.3 index file")
 
-
+// This is a simple program to calculate the Pythagorean theorem
 let a = prompt("Enter value of a")
 let b = prompt("Enter value of b")
 
