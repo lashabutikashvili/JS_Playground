@@ -10,5 +10,5 @@ console.log("Value of b is: " + b);
 let c = (a*a + b*b);
 console.log(c)
 
-let pTheorem = c
-alert(`The answer is: ${pTheorem}`)
+let pTheorem = Math.sqrt(c);
+console.log(`The hypotenuse of the triangle is: ${pTheorem}`)

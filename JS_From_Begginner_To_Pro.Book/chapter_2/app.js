@@ -91,3 +91,6 @@ console.log("Modnum1 was 15 at he start and modnum2 was 6: ",modNum1, modNum2)
  let nmbr2 = 5;
  let nmbr3 = 2;
  console.log(nmbr1++ + ++nmbr2 * nmbr3++) //prefix is instant action, postfix will appear in the next action
+
+
+//  assignment operators
