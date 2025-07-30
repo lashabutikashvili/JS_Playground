@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrays</title>
+        <script src="app.js"></script>
+        <style>
+            p {
+                font-weight: 600;
+            }
+            .method{
+                color:aqua;
+            }
+            .code {
+                color: purple;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <h1>Array methods</h1>
+        <h3>Adding and replacing</h3>
+        <ol>
+            <li><span class="method">push()</span> (adds new element into array)<p>example:<span class="code">array.push("element")</span> </p></li>
+            <li><span class="method">splice()</span> - adds elements at certain index. <p>example:<span class="code">array.splice(2, 0, "element") </span> - element will be added from second index of the array and 0 means we won't delete 0 elements after second index we just added, so the elements after addition will shift positions ascending wise </p></li>
+            <li><span class="method">concat()</span> - adds 1 array into another array. <p>example:<span class="code">array.concat(array2)</span>  or <span class="code">let array3 = array.concat(array2)</span> </p>
+            </li>
+        </ol>
+        <h3>Deleting elements</h3>
+        <ol>
+            <li><span class="method">pop()</span> - Deletes the last element from the array<P>example:<span class="code">array.pop()</span> </P></li>
+            <li><span class="method">shift()</span> - Deletes the first element from the array<P>example:<span class="code">array.shift()</span> </P></li>
+            <li><span class="method">splice()</span> - Also Deletes element from the array<P>example: <span class="code">array.splice(1,5)</span></P></li>
+        </ol>
+        <h3>Finding elements</h3>
+        <ol>
+            <li><span class="method">find()</span> method. <p> to write example it needs some knowledge about functions, which I don't have at this trime </p> </li>
+            <li><span class="method">indexof()</span> method - returns the index on which the value is found <p>example: <span class="code">let findIndexOfSmthing = smthing.indexOf("array element") </span></p></li>
+            <li><span class="method">lastIndexOf()</span> method - returns the last element of array </li>
+        </ol>
+        <h3>Sorting</h3>
+        <ol>
+            <li><span class="method">sort()</span> - Sorts numbers from small to high and strings A-Z <p>example: <span class="code">numbers.sort()</span> </p></li>
+        </ol>
+        <h3>Reversing</h3>
+        <ol>
+            <li><span class="method">reverse()</span> - method puts the last element first and first to last <p>example: <span class="code">numbers.reverse()</span></p></li>
+        </ol>
+        <h3>Multidimersional arrays</h3>
+        <p>Multidimensional arrays are arrays into the arrays. You can see example in the Console.</p>
+
+
+
+
+
+    </body>
+
+</html>
